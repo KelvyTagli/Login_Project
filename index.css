@@ -145,8 +145,24 @@ body{
     color: black;
 }
 
+.login .remember{
+    position: relative;
+    margin-top: 2%;
+    padding: 0 5px;
+}
+
+.login .remember a{
+    color:#00ff8891;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.login .remember a:hover{
+    color:#00ff88;
+}
+
 .button{
-    margin-top: 10%;
+    margin-top: 1%;
 }
 
 #login{
