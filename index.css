@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,700&display=swap');
+
+body{
+    height: auto;
+    margin: 5% 5%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.border{
+    border-right: 10px ridge blue;
+    border-top-right-radius: 3%;
+    height: 550px;
+    width: 350px;
+}
+
+.login{
+   width: 200px;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 30px 35px;
+   border-right: 10px solid red;
+   border-top-right-radius: 3%;
+   border-top: none;
+   border-left: none;
+   border-bottom: none;
+   box-shadow: 0px 10px 40px rgb(5, 5, 5);
+}
+
+.login div{
+    justify-content: center;
+    align-items: center;
+}
+
+.login h1{
+    color: #00ff88;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 40px;
+    height: 80px;
+}
+
+.login .card-user{
+    position: relative;
+    margin-bottom: 15%;
+}
+
+.login .card-user>label{
+    display: flex;
+    color: transparent;
+    top: 0;
+    left: 0;
+    margin-bottom: 5%;
+    transition: .5s;
+    position: absolute;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.login .card-user input{
+    display: flex;
+    width: 210px;
+    height: 30px;
+    border-radius: 3px;
+    background-color:transparent;
+    border:none;
+    color: white;
+    border-bottom: 1px solid;
+    padding: 0 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.login .card-user input:focus~label,
+.login .card-user input:valid~label{
+    top:-20px;
+    left: 0;
+    color: #00ff88;
+    font-size: 12px;
+}
+
+.login .card-user > input::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.login .card-user input:focus::placeholder{
+    color: black;
+}
+
+.login .card-pass{
+    position: relative;
+}
+
+.login .card-pass>label{
+    display: flex;
+    color: transparent;
+    top: 0;
+    left: 0;
+    margin-bottom: 5%;
+    transition: .5s;
+    position: absolute;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.login .card-pass input{
+    display: flex;
+    width: 210px;
+    height: 30px;
+    border-radius: 3px;
+    background-color:transparent;
+    border:none;
+    color: white;
+    border-bottom: 1px solid;
+    padding: 0 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.login .card-pass input:focus~label,
+.login .card-pass input:valid~label{
+    top:-20px;
+    left: 0;
+    color: #00ff88;
+    font-size: 12px;
+}
+
+.login .card-pass input::placeholder{
+    color: white;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+.login .card-pass input:focus::placeholder{
+    color: black;
+}
+
+.button{
+    margin-top: 10%;
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    margin: 25px;
+    border: 1px solid;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+#login:hover{
+    background-color: #00ff88;
+    color: black;
+    box-shadow: 0px 10px 40px -12px #00ff88;
+}
+
+.login .new{
+    display: flex;
+    position: relative;
+}
+
+.login .new p{
+    color: whitesmoke;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.login .new a{
+    color:#00ff8891;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login .new a:hover{
+    color:#00ff88;
+}
